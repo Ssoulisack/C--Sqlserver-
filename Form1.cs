@@ -97,12 +97,12 @@ namespace WorkwithDB
                 string NameID = txtID.Text;
             
                 cmd = new SqlCommand("SELECT * FROM names WHERE ID = "+NameID, conn);
-                var reader = cmd.ExecuteReader();
+                dr = cmd.ExecuteReader();
 
-                if (reader.Read())
+                if (dr.Read())
                 {
-                    txtfname.Text = reader["Firstname"].ToString();
-                    txtlname.Text = reader["Lastname"].ToString();
+                    txtfname.Text = dr["Firstname"].ToString();
+                    txtlname.Text = dr["Lastname"].ToString();
                 }
                 else
                 {
@@ -135,7 +135,7 @@ namespace WorkwithDB
             if(txtID.Text != "")
             {
 
-            if(MessageBox.Show("Do you want to Delete these?", "Delete Record", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            if(MessageBox.Show("Do you want to Delete these Record?", "Delete Record", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
             conn.Open();
             cmd = new SqlCommand("DELETE FROM names WHERE ID="+txtID.Text, conn);
@@ -192,6 +192,7 @@ namespace WorkwithDB
         {
             conn.Open();
             string src = txtsearch.Text;
+            
             string query = "SELECT * FROM names";
             if(cbcolumn.SelectedIndex == 0 )
             {
@@ -209,7 +210,7 @@ namespace WorkwithDB
                     // Check if the input is a valid integer for ID
                     if (!int.TryParse(src, out _))
                     {
-                        MessageBox.Show("Please enter a valid integer for ID.");
+                        MessageBox.Show("Please enter a valid intege for ID.");
                         conn.Close();
                         return;
                     }
