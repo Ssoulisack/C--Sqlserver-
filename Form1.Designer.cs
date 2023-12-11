@@ -91,11 +91,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("UD Digi Kyokasho NP-B", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label3.Location = new System.Drawing.Point(223, 9);
+            this.label3.Location = new System.Drawing.Point(170, 8);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(156, 28);
+            this.label3.Size = new System.Drawing.Size(220, 28);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Infomation:";
+            this.label3.Text = "#CRUD Tutorial:";
             // 
             // txtfname
             // 
@@ -117,7 +117,7 @@
             // 
             this.btnsave.BackColor = System.Drawing.SystemColors.ControlText;
             this.btnsave.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btnsave.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnsave.ForeColor = System.Drawing.Color.LightPink;
             this.btnsave.Location = new System.Drawing.Point(22, 221);
             this.btnsave.Name = "btnsave";
             this.btnsave.Size = new System.Drawing.Size(97, 53);
@@ -129,7 +129,7 @@
             // dataGridView1
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.ColumnHeader;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.DarkSeaGreen;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Pink;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeight = 32;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -202,7 +202,7 @@
             // 
             this.btnshow.BackColor = System.Drawing.SystemColors.ControlText;
             this.btnshow.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btnshow.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnshow.ForeColor = System.Drawing.Color.LightPink;
             this.btnshow.Location = new System.Drawing.Point(137, 24);
             this.btnshow.Name = "btnshow";
             this.btnshow.Size = new System.Drawing.Size(218, 50);
@@ -215,7 +215,7 @@
             // 
             this.btnclr.BackColor = System.Drawing.SystemColors.ControlText;
             this.btnclr.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btnclr.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnclr.ForeColor = System.Drawing.Color.LightPink;
             this.btnclr.Location = new System.Drawing.Point(370, 220);
             this.btnclr.Name = "btnclr";
             this.btnclr.Size = new System.Drawing.Size(97, 54);
@@ -259,7 +259,7 @@
             // 
             this.btUpdate.BackColor = System.Drawing.SystemColors.ControlText;
             this.btUpdate.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btUpdate.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btUpdate.ForeColor = System.Drawing.Color.LightPink;
             this.btUpdate.Location = new System.Drawing.Point(140, 221);
             this.btUpdate.Name = "btUpdate";
             this.btUpdate.Size = new System.Drawing.Size(97, 53);
@@ -286,7 +286,7 @@
             // 
             this.btfetch.BackColor = System.Drawing.SystemColors.ControlText;
             this.btfetch.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btfetch.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btfetch.ForeColor = System.Drawing.Color.LightPink;
             this.btfetch.Location = new System.Drawing.Point(267, 80);
             this.btfetch.Name = "btfetch";
             this.btfetch.Size = new System.Drawing.Size(88, 34);
@@ -299,7 +299,7 @@
             // 
             this.btndelete.BackColor = System.Drawing.SystemColors.ControlText;
             this.btndelete.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btndelete.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btndelete.ForeColor = System.Drawing.Color.LightPink;
             this.btndelete.Location = new System.Drawing.Point(258, 221);
             this.btndelete.Name = "btndelete";
             this.btndelete.Size = new System.Drawing.Size(97, 53);
@@ -310,7 +310,7 @@
             // 
             // groupBox
             // 
-            this.groupBox.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.groupBox.BackColor = System.Drawing.Color.Pink;
             this.groupBox.Controls.Add(this.txtfname);
             this.groupBox.Controls.Add(this.label1);
             this.groupBox.Controls.Add(this.btnexit);
@@ -324,7 +324,7 @@
             this.groupBox.Controls.Add(this.btnsave);
             this.groupBox.Controls.Add(this.txtlname);
             this.groupBox.Controls.Add(this.btfetch);
-            this.groupBox.ForeColor = System.Drawing.Color.Azure;
+            this.groupBox.ForeColor = System.Drawing.Color.Black;
             this.groupBox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.groupBox.Location = new System.Drawing.Point(24, 65);
             this.groupBox.Name = "groupBox";
@@ -379,7 +379,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.BackColor = System.Drawing.Color.Pink;
             this.ClientSize = new System.Drawing.Size(1114, 510);
             this.Controls.Add(this.cbcolumn);
             this.Controls.Add(this.txtsearch);
@@ -388,6 +388,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Location = new System.Drawing.Point(50, 50);
             this.Name = "info";
